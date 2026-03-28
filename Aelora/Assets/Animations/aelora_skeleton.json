@@ -1,0 +1,1150 @@
+{
+  "skeleton": {
+    "hash": "aelora_v1",
+    "spine": "4.2",
+    "x": -60,
+    "y": 0,
+    "width": 120,
+    "height": 300,
+    "images": "./parts",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "hip",
+      "parent": "root",
+      "y": 120
+    },
+    {
+      "name": "spine1",
+      "parent": "hip",
+      "y": 40
+    },
+    {
+      "name": "spine2",
+      "parent": "spine1",
+      "y": 40
+    },
+    {
+      "name": "neck",
+      "parent": "spine2",
+      "y": 35
+    },
+    {
+      "name": "head",
+      "parent": "neck",
+      "y": 30
+    },
+    {
+      "name": "hair",
+      "parent": "head",
+      "y": 20
+    },
+    {
+      "name": "shoulder_l",
+      "parent": "spine2",
+      "x": -30,
+      "y": 25
+    },
+    {
+      "name": "upper_arm_l",
+      "parent": "shoulder_l",
+      "length": 55,
+      "rotation": -10
+    },
+    {
+      "name": "lower_arm_l",
+      "parent": "upper_arm_l",
+      "length": 50,
+      "y": -55
+    },
+    {
+      "name": "hand_l",
+      "parent": "lower_arm_l",
+      "y": -50
+    },
+    {
+      "name": "shoulder_r",
+      "parent": "spine2",
+      "x": 30,
+      "y": 25
+    },
+    {
+      "name": "upper_arm_r",
+      "parent": "shoulder_r",
+      "length": 55,
+      "rotation": 10
+    },
+    {
+      "name": "lower_arm_r",
+      "parent": "upper_arm_r",
+      "length": 50,
+      "y": -55
+    },
+    {
+      "name": "hand_r",
+      "parent": "lower_arm_r",
+      "y": -50
+    },
+    {
+      "name": "upper_leg_l",
+      "parent": "hip",
+      "x": -15,
+      "length": 60,
+      "rotation": 0
+    },
+    {
+      "name": "lower_leg_l",
+      "parent": "upper_leg_l",
+      "length": 55,
+      "y": -60
+    },
+    {
+      "name": "foot_l",
+      "parent": "lower_leg_l",
+      "y": -55
+    },
+    {
+      "name": "upper_leg_r",
+      "parent": "hip",
+      "x": 15,
+      "length": 60,
+      "rotation": 0
+    },
+    {
+      "name": "lower_leg_r",
+      "parent": "upper_leg_r",
+      "length": 55,
+      "y": -60
+    },
+    {
+      "name": "foot_r",
+      "parent": "lower_leg_r",
+      "y": -55
+    },
+    {
+      "name": "dress_top",
+      "parent": "spine1",
+      "y": 0
+    },
+    {
+      "name": "dress_bottom",
+      "parent": "hip",
+      "y": -20
+    }
+  ],
+  "slots": [
+    {
+      "name": "dress_lower",
+      "bone": "dress_bottom",
+      "attachment": "dress_lower"
+    },
+    {
+      "name": "upper_leg_l",
+      "bone": "upper_leg_l",
+      "attachment": "upper_leg_l"
+    },
+    {
+      "name": "lower_leg_l",
+      "bone": "lower_leg_l",
+      "attachment": "lower_leg_l"
+    },
+    {
+      "name": "foot_l",
+      "bone": "foot_l",
+      "attachment": "foot_l"
+    },
+    {
+      "name": "upper_leg_r",
+      "bone": "upper_leg_r",
+      "attachment": "upper_leg_r"
+    },
+    {
+      "name": "lower_leg_r",
+      "bone": "lower_leg_r",
+      "attachment": "lower_leg_r"
+    },
+    {
+      "name": "foot_r",
+      "bone": "foot_r",
+      "attachment": "foot_r"
+    },
+    {
+      "name": "dress_upper",
+      "bone": "dress_top",
+      "attachment": "dress_upper"
+    },
+    {
+      "name": "torso",
+      "bone": "spine2",
+      "attachment": "torso"
+    },
+    {
+      "name": "upper_arm_l",
+      "bone": "upper_arm_l",
+      "attachment": "upper_arm_l"
+    },
+    {
+      "name": "lower_arm_l",
+      "bone": "lower_arm_l",
+      "attachment": "lower_arm_l"
+    },
+    {
+      "name": "hand_l",
+      "bone": "hand_l",
+      "attachment": "hand_l"
+    },
+    {
+      "name": "upper_arm_r",
+      "bone": "upper_arm_r",
+      "attachment": "upper_arm_r"
+    },
+    {
+      "name": "lower_arm_r",
+      "bone": "lower_arm_r",
+      "attachment": "lower_arm_r"
+    },
+    {
+      "name": "hand_r",
+      "bone": "hand_r",
+      "attachment": "hand_r"
+    },
+    {
+      "name": "head",
+      "bone": "head",
+      "attachment": "head"
+    },
+    {
+      "name": "hair",
+      "bone": "hair",
+      "attachment": "hair"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "head": {
+          "head": {
+            "width": 80,
+            "height": 90
+          }
+        },
+        "hair": {
+          "hair": {
+            "width": 100,
+            "height": 120,
+            "y": 20
+          }
+        },
+        "torso": {
+          "torso": {
+            "width": 60,
+            "height": 80
+          }
+        },
+        "dress_upper": {
+          "dress_upper": {
+            "width": 70,
+            "height": 60
+          }
+        },
+        "dress_lower": {
+          "dress_lower": {
+            "width": 120,
+            "height": 100
+          }
+        },
+        "upper_arm_l": {
+          "upper_arm_l": {
+            "width": 25,
+            "height": 55
+          }
+        },
+        "lower_arm_l": {
+          "lower_arm_l": {
+            "width": 20,
+            "height": 50
+          }
+        },
+        "hand_l": {
+          "hand_l": {
+            "width": 22,
+            "height": 22
+          }
+        },
+        "upper_arm_r": {
+          "upper_arm_r": {
+            "width": 25,
+            "height": 55
+          }
+        },
+        "lower_arm_r": {
+          "lower_arm_r": {
+            "width": 20,
+            "height": 50
+          }
+        },
+        "hand_r": {
+          "hand_r": {
+            "width": 22,
+            "height": 22
+          }
+        },
+        "upper_leg_l": {
+          "upper_leg_l": {
+            "width": 28,
+            "height": 60
+          }
+        },
+        "lower_leg_l": {
+          "lower_leg_l": {
+            "width": 22,
+            "height": 55
+          }
+        },
+        "foot_l": {
+          "foot_l": {
+            "width": 30,
+            "height": 18
+          }
+        },
+        "upper_leg_r": {
+          "upper_leg_r": {
+            "width": 28,
+            "height": 60
+          }
+        },
+        "lower_leg_r": {
+          "lower_leg_r": {
+            "width": 22,
+            "height": 55
+          }
+        },
+        "foot_r": {
+          "foot_r": {
+            "width": 30,
+            "height": 18
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "spine1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8,
+              "angle": 2
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "spine2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8,
+              "angle": 1
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "head": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.0,
+              "angle": -3
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "hair": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.6,
+              "angle": 5
+            },
+            {
+              "time": 1.2,
+              "angle": -3
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8,
+              "angle": 5
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8,
+              "angle": -5
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        },
+        "dress_bottom": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8,
+              "angle": 3
+            },
+            {
+              "time": 1.6,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    },
+    "run": {
+      "bones": {
+        "hip": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.15,
+              "x": 0,
+              "y": 8
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.45,
+              "x": 0,
+              "y": 8
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "spine1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -5
+            },
+            {
+              "time": 0.15,
+              "angle": 5
+            },
+            {
+              "time": 0.3,
+              "angle": -5
+            },
+            {
+              "time": 0.45,
+              "angle": 5
+            },
+            {
+              "time": 0.6,
+              "angle": -5
+            }
+          ]
+        },
+        "upper_leg_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -30
+            },
+            {
+              "time": 0.15,
+              "angle": 30
+            },
+            {
+              "time": 0.3,
+              "angle": -30
+            },
+            {
+              "time": 0.45,
+              "angle": 30
+            },
+            {
+              "time": 0.6,
+              "angle": -30
+            }
+          ]
+        },
+        "lower_leg_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 40
+            },
+            {
+              "time": 0.15,
+              "angle": -10
+            },
+            {
+              "time": 0.3,
+              "angle": 40
+            },
+            {
+              "time": 0.45,
+              "angle": -10
+            },
+            {
+              "time": 0.6,
+              "angle": 40
+            }
+          ]
+        },
+        "upper_leg_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 30
+            },
+            {
+              "time": 0.15,
+              "angle": -30
+            },
+            {
+              "time": 0.3,
+              "angle": 30
+            },
+            {
+              "time": 0.45,
+              "angle": -30
+            },
+            {
+              "time": 0.6,
+              "angle": 30
+            }
+          ]
+        },
+        "lower_leg_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -10
+            },
+            {
+              "time": 0.15,
+              "angle": 40
+            },
+            {
+              "time": 0.3,
+              "angle": -10
+            },
+            {
+              "time": 0.45,
+              "angle": 40
+            },
+            {
+              "time": 0.6,
+              "angle": -10
+            }
+          ]
+        },
+        "upper_arm_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 25
+            },
+            {
+              "time": 0.15,
+              "angle": -25
+            },
+            {
+              "time": 0.3,
+              "angle": 25
+            },
+            {
+              "time": 0.45,
+              "angle": -25
+            },
+            {
+              "time": 0.6,
+              "angle": 25
+            }
+          ]
+        },
+        "upper_arm_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25
+            },
+            {
+              "time": 0.15,
+              "angle": 25
+            },
+            {
+              "time": 0.3,
+              "angle": -25
+            },
+            {
+              "time": 0.45,
+              "angle": 25
+            },
+            {
+              "time": 0.6,
+              "angle": -25
+            }
+          ]
+        },
+        "hair": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 10
+            },
+            {
+              "time": 0.15,
+              "angle": -10
+            },
+            {
+              "time": 0.3,
+              "angle": 10
+            },
+            {
+              "time": 0.45,
+              "angle": -10
+            },
+            {
+              "time": 0.6,
+              "angle": 10
+            }
+          ]
+        },
+        "dress_bottom": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 8
+            },
+            {
+              "time": 0.15,
+              "angle": -8
+            },
+            {
+              "time": 0.3,
+              "angle": 8
+            },
+            {
+              "time": 0.45,
+              "angle": -8
+            },
+            {
+              "time": 0.6,
+              "angle": 8
+            }
+          ]
+        }
+      }
+    },
+    "jump": {
+      "bones": {
+        "hip": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": -10
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 30
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 20
+            },
+            {
+              "time": 0.8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "upper_leg_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 30
+            },
+            {
+              "time": 0.3,
+              "angle": -20
+            },
+            {
+              "time": 0.6,
+              "angle": -15
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_leg_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 30
+            },
+            {
+              "time": 0.3,
+              "angle": 15
+            },
+            {
+              "time": 0.6,
+              "angle": 10
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": -40
+            },
+            {
+              "time": 0.5,
+              "angle": -30
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": 40
+            },
+            {
+              "time": 0.5,
+              "angle": 30
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "hair": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": 20
+            },
+            {
+              "time": 0.6,
+              "angle": -15
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "dress_bottom": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": 15
+            },
+            {
+              "time": 0.6,
+              "angle": -10
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    },
+    "slide": {
+      "bones": {
+        "hip": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": -60
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": -60
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": -70
+            },
+            {
+              "time": 0.5,
+              "angle": -70
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "spine1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": -20
+            },
+            {
+              "time": 0.5,
+              "angle": -20
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_leg_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 60
+            },
+            {
+              "time": 0.5,
+              "angle": 60
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "lower_leg_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": -30
+            },
+            {
+              "time": 0.5,
+              "angle": -30
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_leg_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 70
+            },
+            {
+              "time": 0.5,
+              "angle": 70
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "hair": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 30
+            },
+            {
+              "time": 0.3,
+              "angle": 25
+            },
+            {
+              "time": 0.5,
+              "angle": 30
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        },
+        "dress_bottom": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.1,
+              "angle": 20
+            },
+            {
+              "time": 0.5,
+              "angle": 20
+            },
+            {
+              "time": 0.6,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    },
+    "magic": {
+      "bones": {
+        "spine2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": -10
+            },
+            {
+              "time": 0.5,
+              "angle": 10
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_l": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": -60
+            },
+            {
+              "time": 0.4,
+              "angle": -120
+            },
+            {
+              "time": 0.6,
+              "angle": -90
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "upper_arm_r": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.2,
+              "angle": 60
+            },
+            {
+              "time": 0.4,
+              "angle": 120
+            },
+            {
+              "time": 0.6,
+              "angle": 90
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "hair": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3,
+              "angle": -20
+            },
+            {
+              "time": 0.5,
+              "angle": 20
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        },
+        "dress_bottom": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3,
+              "angle": -15
+            },
+            {
+              "time": 0.5,
+              "angle": 15
+            },
+            {
+              "time": 0.8,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
