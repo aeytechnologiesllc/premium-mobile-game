@@ -2,45 +2,60 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 3
-  tags: []
+  serializedVersion: 2
+  tags:
+  - Obstacle
+  - Collectible
+  - CrownShard
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  - Background
+  - Foreground
+  - Player
+  - Obstacles
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
-  m_RenderingLayers:
-  - Default
-  m_MigratedRenderPipelines: []
+  - name: Background
+    uniqueID: 1
+    locked: 0
+  - name: Midground
+    uniqueID: 2
+    locked: 0
+  - name: Player
+    uniqueID: 3
+    locked: 0
+  - name: Foreground
+    uniqueID: 4
+    locked: 0
+  - name: UI
+    uniqueID: 5
+    locked: 0
